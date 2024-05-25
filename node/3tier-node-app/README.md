@@ -70,3 +70,4 @@ Step 5: access the nodejs application from browser
     docker build -t my-app:1.0 .       
     
 The dot "." at the end of the command denotes location of the Dockerfile.
+NOTE: While running on ec2 instance don't forget to mention responding ip-address of ec2 machine in /app/index.html file.
